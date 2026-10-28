@@ -10,24 +10,16 @@ const options = {
   maxPoolSize: 20,
 };
 
-declare global {
-  // eslint-disable-next-line no-var
-  var _mongoClientPromise: Promise<MongoClient> | undefined;
-}
+const globalWithMongo = globalThis as typeof globalThis & {
+  _mongoClientPromise?: Promise<MongoClient>;
+};
 
-let client: MongoClient;
-let clientPromise: Promise<MongoClient>;
+const clientPromise =
+  globalWithMongo._mongoClientPromise ??
+  new MongoClient(uri, options).connect();
 
-if (process.env.NODE_ENV === "development") {
-  if (!global._mongoClientPromise) {
-    client = new MongoClient(uri, options);
-    global._mongoClientPromise = client.connect();
-  }
-
-  clientPromise = global._mongoClientPromise;
-} else {
-  client = new MongoClient(uri, options);
-  clientPromise = client.connect();
+if (process.env.NODE_ENV !== "production") {
+  globalWithMongo._mongoClientPromise = clientPromise;
 }
 
 export default clientPromise;
