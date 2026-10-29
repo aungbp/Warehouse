@@ -31,7 +31,7 @@
   },
   {
     "productName": "Sparkling Water",
-    "image": "/images/products/sparkling-water.jpg",
+    "image": "/images/products/sparking-water.jpg",
     "price": 2.2,
     "location": { "row": "A", "bay": "06", "shelf": "01" }
   },
