@@ -1,0 +1,29 @@
+[{
+	"_id": {
+		"$oid": "6ae3da3c2a756c510856a80c"
+	},
+	"categoryName": "Drinks",
+	"displayOrder": 1
+},
+{
+	"_id": {
+		"$oid": "6ae3da3c2a756c510856a80d"
+	},
+	"categoryName": "Dairy & Bakery",
+	"displayOrder": 2
+},
+{
+	"_id": {
+		"$oid": "6ae3da3c2a756c510856a80e"
+	},
+	"categoryName": "Groceries",
+	"displayOrder": 3
+},
+{
+	"_id": {
+		"$oid": "6ae3da3c2a756c510856a80f"
+	},
+	"categoryName": "Household",
+	"displayOrder": 4
+}]
+

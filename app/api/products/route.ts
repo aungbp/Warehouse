@@ -2,9 +2,13 @@ import { NextResponse } from "next/server";
 
 import { getProducts } from "../../../src/features/products/services/productServices";
 
-export async function GET() {
+export async function GET(request: Request) {
+  const url = new URL(request.url);
+
+  const categoryId = url.searchParams.get("categoryId");
+  
   try {
-    const products = await getProducts();
+    const products = await getProducts(categoryId);
 
     return NextResponse.json(
       {

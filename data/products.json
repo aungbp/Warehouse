@@ -1,302 +1,851 @@
-[
-  {
-    "productName": "Apple Juice",
-    "image": "/images/products/apple-juice.jpg",
-    "price": 3.5,
-    "location": { "row": "A", "bay": "01", "shelf": "01" }
-  },
-  {
-    "productName": "Orange Juice",
-    "image": "/images/products/orange-juice.jpg",
-    "price": 3.8,
-    "location": { "row": "A", "bay": "02", "shelf": "01" }
-  },
-  {
-    "productName": "Mango Juice",
-    "image": "/images/products/mango-juice.jpg",
-    "price": 4.2,
-    "location": { "row": "A", "bay": "03", "shelf": "01" }
-  },
-  {
-    "productName": "Pineapple Juice",
-    "image": "/images/products/pineapple-juice.jpg",
-    "price": 3.9,
-    "location": { "row": "A", "bay": "04", "shelf": "01" }
-  },
-  {
-    "productName": "Grape Juice",
-    "image": "/images/products/grape-juice.jpg",
-    "price": 4.1,
-    "location": { "row": "A", "bay": "05", "shelf": "01" }
-  },
-  {
-    "productName": "Sparkling Water",
-    "image": "/images/products/sparking-water.jpg",
-    "price": 2.2,
-    "location": { "row": "A", "bay": "06", "shelf": "01" }
-  },
-  {
-    "productName": "Still Water",
-    "image": "/images/products/still-water.jpg",
-    "price": 1.5,
-    "location": { "row": "A", "bay": "07", "shelf": "01" }
-  },
-  {
-    "productName": "Cola",
-    "image": "/images/products/cola.jpg",
-    "price": 2.8,
-    "location": { "row": "A", "bay": "08", "shelf": "01" }
-  },
-  {
-    "productName": "Lemonade",
-    "image": "/images/products/lemonade.jpg",
-    "price": 2.7,
-    "location": { "row": "A", "bay": "09", "shelf": "01" }
-  },
-  {
-    "productName": "Iced Tea",
-    "image": "/images/products/iced-tea.jpg",
-    "price": 3.2,
-    "location": { "row": "A", "bay": "10", "shelf": "01" }
-  },
-  {
-    "productName": "Whole Milk",
-    "image": "/images/products/whole-milk.jpg",
-    "price": 3.6,
-    "location": { "row": "A", "bay": "01", "shelf": "02" }
-  },
-  {
-    "productName": "Oat Milk",
-    "image": "/images/products/oat-milk.jpg",
-    "price": 4.5,
-    "location": { "row": "A", "bay": "02", "shelf": "02" }
-  },
-  {
-    "productName": "Almond Milk",
-    "image": "/images/products/almond-milk.jpg",
-    "price": 4.3,
-    "location": { "row": "A", "bay": "03", "shelf": "02" }
-  },
-  {
-    "productName": "Greek Yogurt",
-    "image": "/images/products/greek-yogurt.jpg",
-    "price": 5.2,
-    "location": { "row": "A", "bay": "04", "shelf": "02" }
-  },
-  {
-    "productName": "Cheddar Cheese",
-    "image": "/images/products/cheddar-cheese.jpg",
-    "price": 6.5,
-    "location": { "row": "A", "bay": "05", "shelf": "02" }
-  },
-  {
-    "productName": "Butter",
-    "image": "/images/products/butter.jpg",
-    "price": 4.8,
-    "location": { "row": "A", "bay": "06", "shelf": "02" }
-  },
-  {
-    "productName": "Free-Range Eggs",
-    "image": "/images/products/free-range-eggs.jpg",
-    "price": 7.0,
-    "location": { "row": "A", "bay": "07", "shelf": "02" }
-  },
-  {
-    "productName": "White Bread",
-    "image": "/images/products/white-bread.jpg",
-    "price": 2.9,
-    "location": { "row": "A", "bay": "08", "shelf": "02" }
-  },
-  {
-    "productName": "Wholemeal Bread",
-    "image": "/images/products/wholemeal-bread.jpg",
-    "price": 3.2,
-    "location": { "row": "A", "bay": "09", "shelf": "02" }
-  },
-  {
-    "productName": "Sourdough Bread",
-    "image": "/images/products/sourdough-bread.jpg",
-    "price": 5.5,
-    "location": { "row": "A", "bay": "10", "shelf": "02" }
-  },
-  {
-    "productName": "Basmati Rice",
-    "image": "/images/products/basmati-rice.jpg",
-    "price": 4.9,
-    "location": { "row": "B", "bay": "01", "shelf": "01" }
-  },
-  {
-    "productName": "Spaghetti",
-    "image": "/images/products/spaghetti.jpg",
-    "price": 2.5,
-    "location": { "row": "B", "bay": "02", "shelf": "01" }
-  },
-  {
-    "productName": "Instant Noodles",
-    "image": "/images/products/instant-noodles.jpg",
-    "price": 1.2,
-    "location": { "row": "B", "bay": "03", "shelf": "01" }
-  },
-  {
-    "productName": "Canned Tomatoes",
-    "image": "/images/products/canned-tomatoes.jpg",
-    "price": 1.8,
-    "location": { "row": "B", "bay": "04", "shelf": "01" }
-  },
-  {
-    "productName": "Baked Beans",
-    "image": "/images/products/baked-beans.jpg",
-    "price": 2.1,
-    "location": { "row": "B", "bay": "05", "shelf": "01" }
-  },
-  {
-    "productName": "Canned Tuna",
-    "image": "/images/products/canned-tuna.jpg",
-    "price": 3.4,
-    "location": { "row": "B", "bay": "06", "shelf": "01" }
-  },
-  {
-    "productName": "Peanut Butter",
-    "image": "/images/products/peanut-butter.jpg",
-    "price": 4.6,
-    "location": { "row": "B", "bay": "07", "shelf": "01" }
-  },
-  {
-    "productName": "Strawberry Jam",
-    "image": "/images/products/strawberry-jam.jpg",
-    "price": 3.9,
-    "location": { "row": "B", "bay": "08", "shelf": "01" }
-  },
-  {
-    "productName": "Honey",
-    "image": "/images/products/honey.jpg",
-    "price": 6.2,
-    "location": { "row": "B", "bay": "09", "shelf": "01" }
-  },
-  {
-    "productName": "Olive Oil",
-    "image": "/images/products/olive-oil.jpg",
-    "price": 9.5,
-    "location": { "row": "B", "bay": "10", "shelf": "01" }
-  },
-  {
-    "productName": "Tomato Sauce",
-    "image": "/images/products/tomato-sauce.jpg",
-    "price": 3.3,
-    "location": { "row": "B", "bay": "01", "shelf": "02" }
-  },
-  {
-    "productName": "Mayonnaise",
-    "image": "/images/products/mayonnaise.jpg",
-    "price": 4.1,
-    "location": { "row": "B", "bay": "02", "shelf": "02" }
-  },
-  {
-    "productName": "Salt",
-    "image": "/images/products/salt.jpg",
-    "price": 1.3,
-    "location": { "row": "B", "bay": "03", "shelf": "02" }
-  },
-  {
-    "productName": "Black Pepper",
-    "image": "/images/products/black-pepper.jpg",
-    "price": 2.4,
-    "location": { "row": "B", "bay": "04", "shelf": "02" }
-  },
-  {
-    "productName": "Potato Chips",
-    "image": "/images/products/potato-chips.jpg",
-    "price": 3.0,
-    "location": { "row": "B", "bay": "05", "shelf": "02" }
-  },
-  {
-    "productName": "Chocolate Bar",
-    "image": "/images/products/chocolate-bar.jpg",
-    "price": 2.5,
-    "location": { "row": "B", "bay": "06", "shelf": "02" }
-  },
-  {
-    "productName": "Chocolate Chip Cookies",
-    "image": "/images/products/chocolate-chip-cookies.jpg",
-    "price": 3.7,
-    "location": { "row": "B", "bay": "07", "shelf": "02" }
-  },
-  {
-    "productName": "Granola",
-    "image": "/images/products/granola.jpg",
-    "price": 5.8,
-    "location": { "row": "B", "bay": "08", "shelf": "02" }
-  },
-  {
-    "productName": "Rolled Oats",
-    "image": "/images/products/rolled-oats.jpg",
-    "price": 2.9,
-    "location": { "row": "B", "bay": "09", "shelf": "02" }
-  },
-  {
-    "productName": "Coffee Beans",
-    "image": "/images/products/coffee-beans.jpg",
-    "price": 11.5,
-    "location": { "row": "B", "bay": "10", "shelf": "02" }
-  },
-  {
-    "productName": "Green Tea",
-    "image": "/images/products/green-tea.jpg",
-    "price": 4.2,
-    "location": { "row": "C", "bay": "01", "shelf": "01" }
-  },
-  {
-    "productName": "Dishwashing Liquid",
-    "image": "/images/products/dishwashing-liquid.jpg",
-    "price": 3.8,
-    "location": { "row": "C", "bay": "02", "shelf": "01" }
-  },
-  {
-    "productName": "Laundry Detergent",
-    "image": "/images/products/laundry-detergent.jpg",
-    "price": 10.9,
-    "location": { "row": "C", "bay": "03", "shelf": "01" }
-  },
-  {
-    "productName": "All-Purpose Cleaner",
-    "image": "/images/products/all-purpose-cleaner.jpg",
-    "price": 4.5,
-    "location": { "row": "C", "bay": "04", "shelf": "01" }
-  },
-  {
-    "productName": "Paper Towels",
-    "image": "/images/products/paper-towels.jpg",
-    "price": 3.6,
-    "location": { "row": "C", "bay": "05", "shelf": "01" }
-  },
-  {
-    "productName": "Toilet Paper",
-    "image": "/images/products/toilet-paper.jpg",
-    "price": 6.9,
-    "location": { "row": "C", "bay": "06", "shelf": "01" }
-  },
-  {
-    "productName": "Hand Soap",
-    "image": "/images/products/hand-soap.jpg",
-    "price": 2.8,
-    "location": { "row": "C", "bay": "07", "shelf": "01" }
-  },
-  {
-    "productName": "Shampoo",
-    "image": "/images/products/shampoo.jpg",
-    "price": 5.9,
-    "location": { "row": "C", "bay": "08", "shelf": "01" }
-  },
-  {
-    "productName": "Toothpaste",
-    "image": "/images/products/toothpaste.jpg",
-    "price": 3.4,
-    "location": { "row": "C", "bay": "09", "shelf": "01" }
-  },
-  {
-    "productName": "Sunscreen",
-    "image": "/images/products/sunscreen.jpg",
-    "price": 12.5,
-    "location": { "row": "C", "bay": "10", "shelf": "01" }
-  }
-]
+[{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574df"
+	},
+	"productName": "Apple Juice",
+	"price": 3.5,
+	"location": {
+		"row": "A",
+		"bay": "01",
+		"shelf": "01"
+	},
+	"normalizedName": "apple juice",
+	"image": "/images/products/apple-juice.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80c"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574e0"
+	},
+	"productName": "Orange Juice",
+	"price": 3.8,
+	"location": {
+		"row": "A",
+		"bay": "02",
+		"shelf": "01"
+	},
+	"normalizedName": "orange juice",
+	"image": "/images/products/orange-juice.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80c"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574e7"
+	},
+	"productName": "Lemonade",
+	"price": 2.7,
+	"location": {
+		"row": "A",
+		"bay": "09",
+		"shelf": "01"
+	},
+	"normalizedName": "lemonade",
+	"image": "/images/products/lemonade.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80c"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574e8"
+	},
+	"productName": "Iced Tea",
+	"price": 3.2,
+	"location": {
+		"row": "A",
+		"bay": "10",
+		"shelf": "01"
+	},
+	"normalizedName": "iced tea",
+	"image": "/images/products/iced-tea.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80c"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574ee"
+	},
+	"productName": "Butter",
+	"price": 4.8,
+	"location": {
+		"row": "A",
+		"bay": "06",
+		"shelf": "02"
+	},
+	"normalizedName": "butter",
+	"image": "/images/products/butter.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80d"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574f0"
+	},
+	"productName": "White Bread",
+	"price": 2.9,
+	"location": {
+		"row": "A",
+		"bay": "08",
+		"shelf": "02"
+	},
+	"normalizedName": "white bread",
+	"image": "/images/products/white-bread.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80d"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574f2"
+	},
+	"productName": "Sourdough Bread",
+	"price": 5.5,
+	"location": {
+		"row": "A",
+		"bay": "10",
+		"shelf": "02"
+	},
+	"normalizedName": "sourdough bread",
+	"image": "/images/products/sourdough-bread.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80d"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574fb"
+	},
+	"productName": "Honey",
+	"price": 6.2,
+	"location": {
+		"row": "B",
+		"bay": "09",
+		"shelf": "01"
+	},
+	"normalizedName": "honey",
+	"image": "/images/products/honey.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80e"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574fe"
+	},
+	"productName": "Mayonnaise",
+	"price": 4.1,
+	"location": {
+		"row": "B",
+		"bay": "02",
+		"shelf": "02"
+	},
+	"normalizedName": "mayonnaise",
+	"image": "/images/products/mayonnaise.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80e"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d757502"
+	},
+	"productName": "Chocolate Bar",
+	"price": 2.5,
+	"location": {
+		"row": "B",
+		"bay": "06",
+		"shelf": "02"
+	},
+	"normalizedName": "chocolate bar",
+	"image": "/images/products/chocolate-bar.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80e"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d757507"
+	},
+	"productName": "Green Tea",
+	"price": 4.2,
+	"location": {
+		"row": "C",
+		"bay": "01",
+		"shelf": "01"
+	},
+	"normalizedName": "green tea",
+	"image": "/images/products/green-tea.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80c"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d757509"
+	},
+	"productName": "Laundry Detergent",
+	"price": 10.9,
+	"location": {
+		"row": "C",
+		"bay": "03",
+		"shelf": "01"
+	},
+	"normalizedName": "laundry detergent",
+	"image": "/images/products/laundry-detergent.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80f"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d75750d"
+	},
+	"productName": "Hand Soap",
+	"price": 2.8,
+	"location": {
+		"row": "C",
+		"bay": "07",
+		"shelf": "01"
+	},
+	"normalizedName": "hand soap",
+	"image": "/images/products/hand-soap.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80f"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574e2"
+	},
+	"productName": "Pineapple Juice",
+	"price": 3.9,
+	"location": {
+		"row": "A",
+		"bay": "04",
+		"shelf": "01"
+	},
+	"normalizedName": "pineapple juice",
+	"image": "/images/products/pineapple-juice.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80c"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574e5"
+	},
+	"productName": "Still Water",
+	"price": 1.5,
+	"location": {
+		"row": "A",
+		"bay": "07",
+		"shelf": "01"
+	},
+	"normalizedName": "still water",
+	"image": "/images/products/still-water.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80c"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574eb"
+	},
+	"productName": "Almond Milk",
+	"price": 4.3,
+	"location": {
+		"row": "A",
+		"bay": "03",
+		"shelf": "02"
+	},
+	"normalizedName": "almond milk",
+	"image": "/images/products/almond-milk.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80d"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574ed"
+	},
+	"productName": "Cheddar Cheese",
+	"price": 6.5,
+	"location": {
+		"row": "A",
+		"bay": "05",
+		"shelf": "02"
+	},
+	"normalizedName": "cheddar cheese",
+	"image": "/images/products/cheddar-cheese.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80d"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574ef"
+	},
+	"productName": "Free-Range Eggs",
+	"price": 7,
+	"location": {
+		"row": "A",
+		"bay": "07",
+		"shelf": "02"
+	},
+	"normalizedName": "free-range eggs",
+	"image": "/images/products/free-range-eggs.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80d"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574f3"
+	},
+	"productName": "Basmati Rice",
+	"price": 4.9,
+	"location": {
+		"row": "B",
+		"bay": "01",
+		"shelf": "01"
+	},
+	"normalizedName": "basmati rice",
+	"image": "/images/products/basmati-rice.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80e"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574f4"
+	},
+	"productName": "Spaghetti",
+	"price": 2.5,
+	"location": {
+		"row": "B",
+		"bay": "02",
+		"shelf": "01"
+	},
+	"normalizedName": "spaghetti",
+	"image": "/images/products/spaghetti.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80e"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574f5"
+	},
+	"productName": "Instant Noodles",
+	"price": 1.2,
+	"location": {
+		"row": "B",
+		"bay": "03",
+		"shelf": "01"
+	},
+	"normalizedName": "instant noodles",
+	"image": "/images/products/instant-noodles.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80e"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574f7"
+	},
+	"productName": "Baked Beans",
+	"price": 2.1,
+	"location": {
+		"row": "B",
+		"bay": "05",
+		"shelf": "01"
+	},
+	"normalizedName": "baked beans",
+	"image": "/images/products/baked-beans.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80e"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574f8"
+	},
+	"productName": "Canned Tuna",
+	"price": 3.4,
+	"location": {
+		"row": "B",
+		"bay": "06",
+		"shelf": "01"
+	},
+	"normalizedName": "canned tuna",
+	"image": "/images/products/canned-tuna.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80e"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574f9"
+	},
+	"productName": "Peanut Butter",
+	"price": 4.6,
+	"location": {
+		"row": "B",
+		"bay": "07",
+		"shelf": "01"
+	},
+	"normalizedName": "peanut butter",
+	"image": "/images/products/peanut-butter.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80e"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574fa"
+	},
+	"productName": "Strawberry Jam",
+	"price": 3.9,
+	"location": {
+		"row": "B",
+		"bay": "08",
+		"shelf": "01"
+	},
+	"normalizedName": "strawberry jam",
+	"image": "/images/products/strawberry-jam.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80e"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574fc"
+	},
+	"productName": "Olive Oil",
+	"price": 9.5,
+	"location": {
+		"row": "B",
+		"bay": "10",
+		"shelf": "01"
+	},
+	"normalizedName": "olive oil",
+	"image": "/images/products/olive-oil.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80e"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574ff"
+	},
+	"productName": "Salt",
+	"price": 1.3,
+	"location": {
+		"row": "B",
+		"bay": "03",
+		"shelf": "02"
+	},
+	"normalizedName": "salt",
+	"image": "/images/products/salt.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80e"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d757501"
+	},
+	"productName": "Potato Chips",
+	"price": 3,
+	"location": {
+		"row": "B",
+		"bay": "05",
+		"shelf": "02"
+	},
+	"normalizedName": "potato chips",
+	"image": "/images/products/potato-chips.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80e"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d757503"
+	},
+	"productName": "Chocolate Chip Cookies",
+	"price": 3.7,
+	"location": {
+		"row": "B",
+		"bay": "07",
+		"shelf": "02"
+	},
+	"normalizedName": "chocolate chip cookies",
+	"image": "/images/products/chocolate-chip-cookies.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80e"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d75750e"
+	},
+	"productName": "Shampoo",
+	"price": 5.9,
+	"location": {
+		"row": "C",
+		"bay": "08",
+		"shelf": "01"
+	},
+	"normalizedName": "shampoo",
+	"image": "/images/products/shampoo.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80f"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d75750f"
+	},
+	"productName": "Toothpaste",
+	"price": 3.4,
+	"location": {
+		"row": "C",
+		"bay": "09",
+		"shelf": "01"
+	},
+	"normalizedName": "toothpaste",
+	"image": "/images/products/toothpaste.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80f"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574e1"
+	},
+	"productName": "Mango Juice",
+	"price": 4.2,
+	"location": {
+		"row": "A",
+		"bay": "03",
+		"shelf": "01"
+	},
+	"normalizedName": "mango juice",
+	"image": "/images/products/mango-juice.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80c"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574e4"
+	},
+	"productName": "Sparkling Water",
+	"price": 2.2,
+	"location": {
+		"row": "A",
+		"bay": "06",
+		"shelf": "01"
+	},
+	"normalizedName": "sparkling water",
+	"image": "/images/products/sparking-water.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80c"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574e6"
+	},
+	"productName": "Cola",
+	"price": 2.8,
+	"location": {
+		"row": "A",
+		"bay": "08",
+		"shelf": "01"
+	},
+	"normalizedName": "cola",
+	"image": "/images/products/cola.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80c"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574ec"
+	},
+	"productName": "Greek Yogurt",
+	"price": 5.2,
+	"location": {
+		"row": "A",
+		"bay": "04",
+		"shelf": "02"
+	},
+	"normalizedName": "greek yogurt",
+	"image": "/images/products/greek-yogurt.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80d"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574f1"
+	},
+	"productName": "Wholemeal Bread",
+	"price": 3.2,
+	"location": {
+		"row": "A",
+		"bay": "09",
+		"shelf": "02"
+	},
+	"normalizedName": "wholemeal bread",
+	"image": "/images/products/wholemeal-bread.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80d"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574fd"
+	},
+	"productName": "Tomato Sauce",
+	"price": 3.3,
+	"location": {
+		"row": "B",
+		"bay": "01",
+		"shelf": "02"
+	},
+	"normalizedName": "tomato sauce",
+	"image": "/images/products/tomato-sauce.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80e"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d757510"
+	},
+	"productName": "Sunscreen",
+	"price": 12.5,
+	"location": {
+		"row": "C",
+		"bay": "10",
+		"shelf": "01"
+	},
+	"normalizedName": "sunscreen",
+	"image": "/images/products/sunscreen.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80f"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574e3"
+	},
+	"productName": "Grape Juice",
+	"price": 4.1,
+	"location": {
+		"row": "A",
+		"bay": "05",
+		"shelf": "01"
+	},
+	"normalizedName": "grape juice",
+	"image": "/images/products/grape-juice.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80c"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574e9"
+	},
+	"productName": "Whole Milk",
+	"price": 3.6,
+	"location": {
+		"row": "A",
+		"bay": "01",
+		"shelf": "02"
+	},
+	"normalizedName": "whole milk",
+	"image": "/images/products/whole-milk.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80d"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574ea"
+	},
+	"productName": "Oat Milk",
+	"price": 4.5,
+	"location": {
+		"row": "A",
+		"bay": "02",
+		"shelf": "02"
+	},
+	"normalizedName": "oat milk",
+	"image": "/images/products/oat-milk.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80d"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d7574f6"
+	},
+	"productName": "Canned Tomatoes",
+	"price": 1.8,
+	"location": {
+		"row": "B",
+		"bay": "04",
+		"shelf": "01"
+	},
+	"normalizedName": "canned tomatoes",
+	"image": "/images/products/canned-tomatoes.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80e"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d757500"
+	},
+	"productName": "Black Pepper",
+	"price": 2.4,
+	"location": {
+		"row": "B",
+		"bay": "04",
+		"shelf": "02"
+	},
+	"normalizedName": "black pepper",
+	"image": "/images/products/black-pepper.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80e"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d757504"
+	},
+	"productName": "Granola",
+	"price": 5.8,
+	"location": {
+		"row": "B",
+		"bay": "08",
+		"shelf": "02"
+	},
+	"normalizedName": "granola",
+	"image": "/images/products/granola.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80e"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d757505"
+	},
+	"productName": "Rolled Oats",
+	"price": 2.9,
+	"location": {
+		"row": "B",
+		"bay": "09",
+		"shelf": "02"
+	},
+	"normalizedName": "rolled oats",
+	"image": "/images/products/rolled-oats.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80e"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d757506"
+	},
+	"productName": "Coffee Beans",
+	"price": 11.5,
+	"location": {
+		"row": "B",
+		"bay": "10",
+		"shelf": "02"
+	},
+	"normalizedName": "coffee beans",
+	"image": "/images/products/coffee-beans.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80e"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d757508"
+	},
+	"productName": "Dishwashing Liquid",
+	"price": 3.8,
+	"location": {
+		"row": "C",
+		"bay": "02",
+		"shelf": "01"
+	},
+	"normalizedName": "dishwashing liquid",
+	"image": "/images/products/dishwashing-liquid.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80f"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d75750a"
+	},
+	"productName": "All-Purpose Cleaner",
+	"price": 4.5,
+	"location": {
+		"row": "C",
+		"bay": "04",
+		"shelf": "01"
+	},
+	"normalizedName": "all-purpose cleaner",
+	"image": "/images/products/all-purpose-cleaner.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80f"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d75750b"
+	},
+	"productName": "Paper Towels",
+	"price": 3.6,
+	"location": {
+		"row": "C",
+		"bay": "05",
+		"shelf": "01"
+	},
+	"normalizedName": "paper towels",
+	"image": "/images/products/paper-towels.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80f"
+	}
+},
+{
+	"_id": {
+		"$oid": "6ae0629eb509d1076d75750c"
+	},
+	"productName": "Toilet Paper",
+	"price": 6.9,
+	"location": {
+		"row": "C",
+		"bay": "06",
+		"shelf": "01"
+	},
+	"normalizedName": "toilet paper",
+	"image": "/images/products/toilet-paper.jpg",
+	"categoryId": {
+		"$oid": "6ae3da3c2a756c510856a80f"
+	}
+}]
+

@@ -1,0 +1,7 @@
+Edit the database collection using mongosh - create a collection called categories and set categories_id
+in all the products in database.
+
+src - features - categories folder
+In categories folder - repo(connecting database ), service(Api route will call), type(modle for each of the obj from database)
+
+route.ts - application will call this and return json file(database data)

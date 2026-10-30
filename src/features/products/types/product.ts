@@ -10,6 +10,7 @@ export interface Product {
   image: string;
   price: number;
   location: ProductLocation;
+  categoryId: string;
 }
 
 export interface ProductSearchResponse {

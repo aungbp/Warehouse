@@ -1,13 +1,17 @@
 import {
   getAllProducts,
   searchProductsByName,
+  getProductsByCategory,
 } from "../repositories/productRepository";
 
 import { validateProductSearch } from "../validators/productValidator";
 
 import type { Product } from "../types/product";
 
-export async function getProducts(): Promise<Product[]> {
+export async function getProducts(categoryId?: string | null): Promise<Product[]> {
+  if (categoryId) {
+    return getProductsByCategory(categoryId);
+  }
   return getAllProducts();
 }
 

@@ -18,6 +18,7 @@ function formatProduct(document: {
   productName: string;
   image: string;
   price: number;
+  categoryId: ObjectId;
   location?: {
     row?: string;
     bay?: string;
@@ -29,6 +30,7 @@ function formatProduct(document: {
     productName: document.productName,
     image: document.image,
     price: document.price,
+    categoryId: document.categoryId.toString(),
     location: {
       row: document.location?.row ?? "",
       bay: document.location?.bay ?? "",
@@ -46,13 +48,14 @@ export async function getAllProducts(): Promise<Product[]> {
     .limit(500)
     .toArray();
 
-  return documents.map((document) =>
+  return documents.map((document) =>  
     formatProduct({
       _id: document._id,
       productName: document.productName,
       image: document.image,
       price: document.price,
       location: document.location,
+      categoryId: document.categoryId,
     })
   );
 }
@@ -83,6 +86,36 @@ export async function searchProductsByName(
       image: document.image,
       price: document.price,
       location: document.location,
+      categoryId: document.categoryId,
     })
   );
 }
+
+  export async function getProductsByCategory(
+    categoryId: string
+  ): Promise<Product[]> {
+    const db = await getDatabase();
+
+    if (!ObjectId.isValid(categoryId)) {
+      return [];
+    }
+
+    const documents = await db
+      .collection("products")
+      .find({
+        categoryId: new ObjectId(categoryId),
+      })
+      .limit(500)
+      .toArray();
+
+    return documents.map((document) =>
+      formatProduct({
+        _id: document._id,
+        productName: document.productName,
+        image: document.image,
+        price: document.price,
+        categoryId: document.categoryId,
+        location: document.location,
+      })
+    );
+  }
